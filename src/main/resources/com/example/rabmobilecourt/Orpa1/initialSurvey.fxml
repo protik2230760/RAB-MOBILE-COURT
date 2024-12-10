@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rabmobilecourt.User1.InitialSurveyController">
+   <children>
+      <Label layoutX="37.0" layoutY="34.0" prefHeight="17.0" prefWidth="209.0" text="Assign Initial Survey" />
+      <TextField fx:id="institutionNametextField" layoutX="37.0" layoutY="71.0" promptText="Institution Name :" />
+      <TextField fx:id="institutionLocationTextField" layoutX="233.0" layoutY="71.0" prefHeight="25.0" prefWidth="149.0" promptText="Institution Location :" />
+      <TextArea fx:id="surveyDescriptionTextArea" layoutX="39.0" layoutY="153.0" prefHeight="147.0" prefWidth="522.0" />
+      <Button layoutX="270.0" layoutY="345.0" mnemonicParsing="false" onAction="#assignSurveyOnClick" prefHeight="25.0" prefWidth="149.0" style="-fx-background-color: #878ef5;" text="Assign Survey" />
+      <Label layoutX="37.0" layoutY="122.0" prefHeight="17.0" prefWidth="187.0" text="Description :" />
+      <Button layoutX="433.0" layoutY="345.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="17.0" prefWidth="149.0" text="Back to DashBoard" />
+   </children>
+</AnchorPane>

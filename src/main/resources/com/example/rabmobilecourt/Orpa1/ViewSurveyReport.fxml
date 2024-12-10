@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.rabmobilecourt.User1.ViewSurveyReportController">
+   <children>
+      <TextArea fx:id="displaySurveyReportOnClick" layoutX="22.0" layoutY="67.0" prefHeight="266.0" prefWidth="577.0" promptText="Load Survey Report.." style="-fx-border-color: black;" />
+      <Button layoutX="211.0" layoutY="346.0" mnemonicParsing="false" onAction="#viewSurveyReportOnClick" style="-fx-background-color: #878ef5;" text="Click To view Survey Report" />
+      <TextField fx:id="surveyIdTextField" layoutX="24.0" layoutY="24.0" promptText="Enter Survey Id" />
+      <ComboBox fx:id="surveyMonthComboBox" layoutX="181.0" layoutY="24.0" prefWidth="150.0" promptText="Survey Month" />
+      <ComboBox fx:id="surveyYearComboBox" layoutX="354.0" layoutY="24.0" prefWidth="150.0" promptText="Survey Year" />
+      <Button layoutX="429.0" layoutY="359.0" mnemonicParsing="false" onAction="#backToDashBoardOnClick" prefHeight="25.0" prefWidth="149.0" text="Back To DashBoard" />
+   </children>
+</AnchorPane>
